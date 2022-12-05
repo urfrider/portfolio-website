@@ -88,10 +88,11 @@ function Home({ setCurrentPage }: IHomeProps) {
           >
             Contact Me
           </AnchorLink>
-          <AnchorLink
+          <a
+            href="https://drive.google.com/file/d/1YB_9nAS_C-X__JS5P3a4jCSbPN8d7RJY/view?usp=share_link"
             className="rounded-4-sm bg-rainblue py-0.5 pr-0.5"
-            onClick={() => setCurrentPage("skills")}
-            href="#skills"
+            target="_blank"
+            rel="noreferrer"
           >
             <div
               className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex
@@ -99,7 +100,7 @@ function Home({ setCurrentPage }: IHomeProps) {
             >
               Download CV
             </div>
-          </AnchorLink>
+          </a>
         </motion.div>
 
         <motion.div

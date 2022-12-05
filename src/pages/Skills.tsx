@@ -57,17 +57,16 @@ function Skills() {
               <img className="h-16 w-16" src={reactNative} alt="reactNative" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
+              <img className="h-16 w-16" src={python} alt="python" />
+            </div>
+            <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
+              <img className="h-16 w-16" src={django} alt="Django" />
+            </div>
+            <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
               <img className="h-16 w-16" src={c} alt="C" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
               <img className="h-16 w-16" src={java} alt="java" />
-            </div>
-            <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src={python} alt="python" />
-            </div>
-
-            <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src={django} alt="Django" />
             </div>
           </div>
         </motion.div>
