@@ -29,41 +29,49 @@ function Skills() {
           </p>
           <div className="flex flex-wrap gap-3">
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="/assets/html-5.png" alt="html" />
+              <img
+                className="h-16 w-16"
+                src="../assets/html-5.png"
+                alt="html"
+              />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="/assets/css-3.png" alt="css" />
+              <img className="h-16 w-16" src="../assets/css-3.png" alt="css" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="/assets/js.png" alt="js" />
+              <img className="h-16 w-16" src="../assets/js.png" alt="js" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
               <img
                 className="h-16 w-16"
-                src="/assets/typescript.png"
+                src="../assets/typescript.png"
                 alt="ts"
               />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="/assets/react.png" alt="react" />
+              <img
+                className="h-16 w-16"
+                src="../assets/react.png"
+                alt="react"
+              />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
               <img
                 className="h-16 w-16"
-                src="/assets/reactNative.png"
+                src="../assets/reactNative.png"
                 alt="reactNative"
               />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="/assets/letter-c.png" alt="C" />
+              <img className="h-16 w-16" src="../assets/letter-c.png" alt="C" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="/assets/java.png" alt="java" />
+              <img className="h-16 w-16" src="../assets/java.png" alt="java" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
               <img
                 className="h-16 w-16"
-                src="/assets/python.png"
+                src="../assets/python.png"
                 alt="python"
               />
             </div>

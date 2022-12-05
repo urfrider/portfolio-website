@@ -49,7 +49,7 @@ const Project = ({ title, description, link }: IProjectProps) => {
         )}
         <p className="mt-5">{description}</p>
       </div>
-      <img src={`/assets/${projectTitle}.png`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
