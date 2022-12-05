@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { LineDivider } from "../App";
 import { useForm } from "react-hook-form";
+import contact from "../assets/contct.png";
 
 interface IForm {
   name: string;
@@ -57,7 +58,7 @@ function Contact() {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact.png" alt="contact" />
+          <img src={contact} alt="contact" />
         </motion.div>
 
         <motion.div
