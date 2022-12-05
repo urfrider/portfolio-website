@@ -49,7 +49,7 @@ function App() {
         </motion.div>
       </div>
       <LineDivider />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto ">
         <motion.div onViewportEnter={() => setCurrentPage("skills")}>
           <Skills />
         </motion.div>

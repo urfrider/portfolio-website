@@ -3,11 +3,12 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import profile from "../assets/profile.png";
 
 const ProfileImg = () => {
   return (
     <img
-      src="../assets/profile.png"
+      src={profile}
       alt="profile"
       className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] 
       md:max-w-[500px] rounded-t-[400px]"

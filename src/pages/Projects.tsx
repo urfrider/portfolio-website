@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 import { LineDivider } from "../App";
 import CodeIcon from "@mui/icons-material/Code";
 import LoopIcon from "@mui/icons-material/Loop";
+import project_1 from "../assets/project1.png";
+import project_2 from "../assets/project2.png";
+import project_3 from "../assets/project3.png";
+import project_4 from "../assets/project4.png";
 
 const container = {
   hidden: {},
@@ -19,10 +23,11 @@ interface IProjectProps {
   title: string;
   description: string;
   link: string;
+  projectImg: string;
 }
 
-const Project = ({ title, description, link }: IProjectProps) => {
-  const projectTitle = title.split(" ").join("-").toLowerCase();
+const Project = ({ title, description, link, projectImg }: IProjectProps) => {
+  const projectTitle = title.split(" ").join("_").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
@@ -49,7 +54,7 @@ const Project = ({ title, description, link }: IProjectProps) => {
         )}
         <p className="mt-5">{description}</p>
       </div>
-      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
+      <img src={projectImg} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -102,12 +107,14 @@ function Projects() {
             and performance testing of C programming with the given medical dataset in the Internet 
             of Things (IoT) edge computing machine learning landscape."
             link="https://github.com/urfrider/csc1003-assignment"
+            projectImg={project_1}
           />
           <Project
             title="Project 2"
             description="Developed a scope tracker app which keep tracks of scope and schedule.
             Implemented using ReactJS (to imitate a mobile application), Typescript, ExperessJS and SQLite"
             link="https://www.youtube.com/watch?v=HCMu1d_jRws"
+            projectImg={project_2}
           />
           {/* SECOND ROW */}
           <Project
@@ -115,12 +122,14 @@ function Projects() {
             description="Developed a Trello webapp where user can create, delete and drag boards and tasks freely.
             Implemented using ReactJS and Typescript."
             link="https://urfrider.github.io/trello/"
+            projectImg={project_3}
           />
           <Project
             title="Project 4"
             description="Developing a dashboard for smart city planning. Still Working In Progress
             Implemented using ReactJS and .NET Core"
             link=""
+            projectImg={project_4}
           />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue text-white

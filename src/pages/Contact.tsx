@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { LineDivider } from "../App";
 import { useForm } from "react-hook-form";
-import contact from "../assets/contct.png";
+import contact from "../assets/contact.png";
 
 interface IForm {
   name: string;

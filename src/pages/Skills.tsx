@@ -2,6 +2,16 @@ import { motion } from "framer-motion";
 import { LineDivider } from "../App";
 import useMediaQuery from "../hooks/useMediaQuery";
 import skillsImage from "../assets/skillsImage.png";
+import html from "../assets/html-5.png";
+import css from "../assets/css-3.png";
+import django from "../assets/django.png";
+import java from "../assets/java.png";
+import js from "../assets/js.png";
+import c from "../assets/letter-c.png";
+import python from "../assets/python.png";
+import react from "../assets/react.png";
+import reactNative from "../assets/reactNative.png";
+import typescript from "../assets/typescript.png";
 
 function Skills() {
   const isGTMediumScreen = useMediaQuery("(min-width: 1060px)");
@@ -29,59 +39,35 @@ function Skills() {
           </p>
           <div className="flex flex-wrap gap-3">
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img
-                className="h-16 w-16"
-                src="../assets/html-5.png"
-                alt="html"
-              />
+              <img className="h-16 w-16" src={html} alt="html" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="../assets/css-3.png" alt="css" />
+              <img className="h-16 w-16" src={css} alt="css" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="../assets/js.png" alt="js" />
+              <img className="h-16 w-16" src={js} alt="js" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img
-                className="h-16 w-16"
-                src="../assets/typescript.png"
-                alt="ts"
-              />
+              <img className="h-16 w-16" src={typescript} alt="ts" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img
-                className="h-16 w-16"
-                src="../assets/react.png"
-                alt="react"
-              />
+              <img className="h-16 w-16" src={react} alt="react" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img
-                className="h-16 w-16"
-                src="../assets/reactNative.png"
-                alt="reactNative"
-              />
+              <img className="h-16 w-16" src={reactNative} alt="reactNative" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="../assets/letter-c.png" alt="C" />
+              <img className="h-16 w-16" src={c} alt="C" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img className="h-16 w-16" src="../assets/java.png" alt="java" />
+              <img className="h-16 w-16" src={java} alt="java" />
             </div>
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img
-                className="h-16 w-16"
-                src="../assets/python.png"
-                alt="python"
-              />
+              <img className="h-16 w-16" src={python} alt="python" />
             </div>
 
             <div className="p-4 bg-white rounded-full hover:scale-125 transition duration-300">
-              <img
-                className="h-16 w-16"
-                src="/assets/django.png"
-                alt="Django"
-              />
+              <img className="h-16 w-16" src={django} alt="Django" />
             </div>
           </div>
         </motion.div>
