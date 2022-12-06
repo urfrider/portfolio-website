@@ -63,9 +63,9 @@ function Home({ setCurrentPage }: IHomeProps) {
             </span>
           </p>
           <p className="mt-16 mb-7 text-base text-center md:text-start">
-            I'm a highly motivated individual who is passionate in programming.
-            I am open to learning new technologies that can improve user
-            experience. I inspire to be a full-stack developer.
+            I am a highly motivated individual who is passionate in programming
+            and aspire to be a full-stack developer. I am open to learning new
+            technologies that can improve user experience
           </p>
         </motion.div>
 

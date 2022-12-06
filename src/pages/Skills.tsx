@@ -107,9 +107,9 @@ function Skills() {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Open to continuous learning to stay relevant with new technology
-            trends, especially Information Technology in today's world where
-            things change rapidly.
+            Open to continuous learning to stay relevant with new technological
+            developments, especially information technology in the fast-changing
+            world of today.
           </p>
         </motion.div>
 
@@ -135,8 +135,8 @@ function Skills() {
           </div>
           <p className="mt-5">
             A reliable team player who is able to work cooperatively with
-            others. Consistently looking for ways to contribute and help the
-            team to achieve its goals.
+            others. Constantly looking for ways to contribute and help the team
+            to achieve our goals.
           </p>
         </motion.div>
 
@@ -161,9 +161,9 @@ function Skills() {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Ability to identify and anticipate potential future problems. Take
-            appropriate steps evaluate possible solutions and implement the best
-            solution.
+            Ability to identify and anticipate potential problems, by taking
+            appropriate steps to evaluate possible solutions and then
+            implementing the best course of actions
           </p>
         </motion.div>
       </div>
