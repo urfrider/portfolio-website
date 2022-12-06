@@ -14,7 +14,6 @@ const Link = ({ page, currentPage, setCurrentPage }: ILinkProps) => {
   const Icon = ({ type }: IconProps) => {
     switch (type) {
       case "home":
-        console.log("this in icon");
         return <HomeIcon />;
       case "projects":
         console.log("this in icon");
