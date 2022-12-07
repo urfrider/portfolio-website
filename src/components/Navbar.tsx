@@ -16,13 +16,10 @@ const Link = ({ page, currentPage, setCurrentPage }: ILinkProps) => {
       case "home":
         return <HomeIcon />;
       case "projects":
-        console.log("this in icon");
         return <FolderIcon />;
       case "skills":
-        console.log("this in icon");
         return <HandymanIcon />;
       case "contact":
-        console.log("this in icon");
         return <CallIcon />;
       default:
         return <></>;

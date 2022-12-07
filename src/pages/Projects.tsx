@@ -42,7 +42,7 @@ const Project = ({ title, description, link, projectImg }: IProjectProps) => {
             href={link}
             target="_blank"
           >
-            <CodeIcon />
+            <CodeIcon className="text-red" />
           </a>
         ) : (
           <a
@@ -82,7 +82,7 @@ function Projects() {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Here are the list of projects that I have done / working in progress
+          List of projects that I have done / working-in-progress.
         </p>
       </motion.div>
 

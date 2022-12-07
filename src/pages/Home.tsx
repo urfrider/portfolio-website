@@ -65,7 +65,7 @@ function Home({ setCurrentPage }: IHomeProps) {
           <p className="mt-16 mb-7 text-base text-center md:text-start">
             I am a highly motivated individual who is passionate in programming
             and aspire to be a full-stack developer. I am open to learning new
-            technologies that can improve user experience
+            technologies that can improve user experience.
           </p>
         </motion.div>
 

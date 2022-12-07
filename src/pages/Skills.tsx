@@ -163,7 +163,7 @@ function Skills() {
           <p className="mt-5">
             Ability to identify and anticipate potential problems, by taking
             appropriate steps to evaluate possible solutions and then
-            implementing the best course of actions
+            implementing the best course of actions.
           </p>
         </motion.div>
       </div>
