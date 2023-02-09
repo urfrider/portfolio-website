@@ -40,7 +40,7 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto">
         {isGTMediumScreen && (
           <Sidebar currentPage={currentPage} setCurrentPage={setCurrentPage} />
         )}
