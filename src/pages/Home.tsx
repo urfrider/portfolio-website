@@ -89,7 +89,7 @@ function Home({ setCurrentPage }: IHomeProps) {
             Contact Me
           </AnchorLink>
           <a
-            href="https://drive.google.com/file/d/1YB_9nAS_C-X__JS5P3a4jCSbPN8d7RJY/view?usp=share_link"
+            href="https://drive.google.com/file/d/1AWUGPpIFkb4wJogHNuP4Nsj8ccFmQEK4/view?usp=share_link"
             className="rounded-4-sm bg-rainblue py-0.5 pr-0.5"
             target="_blank"
             rel="noreferrer"
